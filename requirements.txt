@@ -1,0 +1,16 @@
+# Python >=3.12; validated with Python 3.14.2.
+# Use a matched torch/torchvision build for your accelerator.
+torch==2.14.1
+torchvision==0.29.1
+diffusers==0.35.2
+flow_matching==1.0.10
+torchdiffeq==0.2.5
+timm==1.0.30
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.8.0
+tqdm==4.70.1
+matplotlib==3.11.2
+
+# Install the local package and CLI entry points.
+-e .

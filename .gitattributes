@@ -1,0 +1,6 @@
+# Store release assets directly in Git as binary files.
+*.npz binary
+*.pth binary
+*.png binary
+*.pdf binary
+*.gif binary

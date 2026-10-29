@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "selection_protocol": "Frozen full-matrix QMLP settings selected using a deterministic MLP training-only 80/20 split with seed 0. Hyperparameters and epochs are reused without retuning.",
+  "datasets": {
+    "MATR-1": {
+      "qmlp": {"hidden": 32, "dropout": 0.05, "lr": 0.001, "epochs": 75}
+    },
+    "MATR-2": {
+      "qmlp": {"hidden": 32, "dropout": 0.05, "lr": 0.001, "epochs": 75}
+    },
+    "HUST": {
+      "qmlp": {"hidden": 64, "dropout": 0.05, "lr": 0.001, "epochs": 50}
+    },
+    "MIX-20": {
+      "qmlp": {"hidden": 64, "dropout": 0.05, "lr": 0.0003, "epochs": 800}
+    },
+    "MIX-100": {
+      "qmlp": {"hidden": 64, "dropout": 0.05, "lr": 0.001, "epochs": 218}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the FlowBatt paper and the relevant source datasets."
+title: "FlowBatt: Flow Matching for Probabilistic Battery Degradation Prediction"
+type: software
+version: 0.1.0
+repository-code: "https://github.com/HamidrezaEiv/FlowBatt"
+authors:
+  - family-names: Eivazi
+    given-names: Hamidreza
+  - family-names: Sharaawy
+    given-names: Eslam
+  - family-names: Wittek
+    given-names: Stefan
+  - family-names: Hebenbrock
+    given-names: André
+  - family-names: Ginster
+    given-names: Raphael
+  - family-names: Blömeke
+    given-names: Steffen
+preferred-citation:
+  type: conference-paper
+  title: "FlowBatt: Flow Matching for Probabilistic Battery Degradation Prediction"
+  authors:
+    - family-names: Eivazi
+      given-names: Hamidreza
+    - family-names: Sharaawy
+      given-names: Eslam
+    - family-names: Wittek
+      given-names: Stefan
+    - family-names: Hebenbrock
+      given-names: André
+    - family-names: Ginster
+      given-names: Raphael
+    - family-names: Blömeke
+      given-names: Steffen
+  collection-title: "The Fortieth Annual Conference on Neural Information Processing Systems"
+  year: 2026
+  url: "https://openreview.net/forum?id=XCVKzG7HD6"

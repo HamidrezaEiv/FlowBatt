@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+workspaces/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+
+# XAI-CNN generated artifacts (scoped to the integrated xaicnn tree).
+/xaicnn/**/data/
+/xaicnn/**/*.npz
+/xaicnn/**/*.pt
+/xaicnn/**/*.pth
+/xaicnn/**/*.keras
+/xaicnn/**/*.h5
+!/xaicnn/checkpoints/xai_cnn/seed_00[0-9].pth
